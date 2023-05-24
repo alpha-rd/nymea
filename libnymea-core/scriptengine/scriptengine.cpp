@@ -77,6 +77,7 @@ ScriptEngine::ScriptEngine(ThingManager *thingManager, LogEngine *logEngine, QOb
     qmlRegisterType<ScriptThing>("nymea", 1, 0, "Thing");
     qmlRegisterType<ScriptThings>("nymea", 1, 0, "Things");
 
+
     m_logger = logEngine->registerLogSource("scripts", {"id", "event"});
 
     m_engine = new QQmlEngine(this);

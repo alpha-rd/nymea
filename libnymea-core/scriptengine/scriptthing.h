@@ -66,6 +66,7 @@ signals:
 
     void stateValueChanged(const QString &stateName, const QVariant &value);
     void eventTriggered(const QString &eventName, const QVariantMap &params);
+    void actionExecuted(const QString &actionName, const QVariantMap &params, Thing::ThingError status, Action::TriggeredBy triggeredBy);
 
 private slots:
     void init(ThingManager *thingManager);
