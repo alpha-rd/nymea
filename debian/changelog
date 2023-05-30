@@ -1,3 +1,12 @@
+nymea (1.9.0) jammy; urgency=medium
+
+  [ Michael Zanetti ]
+  * Add location setting
+  * Add support for connections to actionExecuted in scripts
+  * Enable more info on double ThingActionInfi::finish() calls
+
+ -- jenkins <developer@nymea.io>  Tue, 30 May 2023 14:14:50 +0200
+
 nymea (1.8.0) jammy; urgency=medium
 
   [ Michael Zanetti ]
